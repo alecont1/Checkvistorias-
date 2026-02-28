@@ -97,7 +97,7 @@ export default function Partners() {
                         {/* Partner Seal Image */}
                         <div className="relative z-10 flex flex-col items-center justify-center transition-transform duration-500 group-hover:scale-105">
                             <img
-                                src="/selo-remax-verificado.png"
+                                src="/selo-remax-verificado.png.png"
                                 alt="Selo de Verificação Check Vistorias - Parceiro RE/MAX"
                                 className="h-24 md:h-32 object-contain drop-shadow-md group-hover:drop-shadow-2xl transition-all duration-500"
                             />
