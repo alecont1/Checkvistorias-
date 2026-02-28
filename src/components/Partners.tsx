@@ -72,14 +72,14 @@ export default function Partners() {
                 </h3>
 
                 <div ref={contentRef} className="flex justify-center items-center w-full">
-                    {/* The Magnetic Container + WhatsApp Link */}
+                    {/* The Magnetic Container + RE/MAX Link */}
                     <a
                         ref={magneticRef}
-                        href="https://wa.me/5519991607587"
+                        href="https://www.remax.com.br/pt-br/escritorios/sao-paulo/mogi-guacu/remax-companhia-de-imoveis/69028"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="relative group block p-8 cursor-pointer z-20"
-                        aria-label="Fale conosco no WhatsApp sobre nossa parceria com a RE/MAX"
+                        aria-label="Visitar site oficial da RE/MAX Companhia de Imóveis"
                     >
                         {/* Target Reticles (Corners) */}
                         {/* Top Left */}
@@ -95,11 +95,11 @@ export default function Partners() {
                         <div className="absolute inset-0 bg-vistoria/0 group-hover:bg-vistoria/5 transition-colors duration-500 rounded-sm pointer-events-none" />
 
                         {/* Partner Seal Image */}
-                        <div className="relative z-10 flex flex-col items-center justify-center transition-transform duration-500 group-hover:scale-105">
+                        <div className="relative z-10 flex flex-col items-center justify-center transition-transform duration-500 group-hover:scale-[1.03]">
                             <img
                                 src="/selo-remax-verificado.png.png"
-                                alt="Selo de Verificação Check Vistorias - Parceiro RE/MAX"
-                                className="h-24 md:h-32 object-contain drop-shadow-md group-hover:drop-shadow-2xl transition-all duration-500"
+                                alt="Selo de Parceiro Verificado - RE/MAX Companhia de Imóveis"
+                                className="h-24 md:h-32 object-contain drop-shadow-md group-hover:drop-shadow-[0_10px_25px_rgba(132,204,22,0.4)] transition-all duration-500"
                             />
 
                             {/* Verified Status Tag */}
